@@ -53,3 +53,9 @@ sleep_df = pd.concat([sleep_cn_df, sleep_dem_df], ignore_index=True)
 정확도:0.8047, 정밀도:0.7703, 재현율:0.6746, F1:0.7192, AUC:0.8713
 2. activity
 정확도:0.7059, 정밀도:0.6522, 재현율:0.6078, F1:0.6292, AUC:0.7813
+3. final : sleep feature + activity feature 중 t-test에서 유의미한 피처만 사용
+정확도:0.9693, 정밀도:0.9728, 재현율:0.9527, F1:0.9626, AUC:0.9963
+
+
+## feature importance
+![feature_importance](featureimportance.PNG)
