@@ -58,4 +58,4 @@ sleep_df = pd.concat([sleep_cn_df, sleep_dem_df], ignore_index=True)
 
 
 ## feature importance
-![feature_importance](featureimportance.PNG)
+![feature_importance](images/featureimportance.png)
